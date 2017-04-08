@@ -49,7 +49,7 @@
 - 提交: 20 人, 不到 2/3
 - 引发的作品:
     + 微信机器人 ~ [DebugUself/du4proto at tl2wc](https://github.com/DebugUself/du4proto/tree/tl2wc)
-    + cvs->md <-- 没有正式发布工程分支
+    + csv->md <-- 没有正式发布工程分支
 - 状态:
     + Commits (~ 17.4.8 15:21, `共 21 人`)次数排名:
         * NBR-hugh -> 15
@@ -259,13 +259,13 @@
 
 - 一直认真积极的诗颖同学就在 xpgeng 还在写总结的时候, 咔咔咔完成了 push. 正在开心自己提交的时候, 浏览 repo 内其他怼友的小结是, 她发现文件名搞错了. 在 README 中, 要求的文件格式为
 
-    du_s01e01_[github id].md
-    例如,大妈的作业文件名就应该是: du_s01e01_zoomquiet.md
+    `du_s01e01_[github id].md`
+    例如,大妈的作业文件名就应该是: `du_s01e01_zoomquiet.md`
 
-- 然后**特(shi)别(er)实(bu)在(jian)**的诗颖同学的文件名是: du_s01e01_[zhangshiyingrunwithcc].md
+- 然后**特(shi)别(er)实(bu)在(jian)**的诗颖同学的文件名是: `du_s01e01_[zhangshiyingrunwithcc].md`
 - 纳尼? 改! 于是紧接着有了这样一次 [commit](https://github.com/DebugUself/du4proto/commit/4fe6f2a237f49ad7ee1b108d0f849105aa9eee82#commitcomment-21604885)
 
-    Rename du_s01e01_[zhangshiyinrunwithcc].md to du_s01e01_zhangshiyinru... 
+    `Rename du_s01e01_[zhangshiyinrunwithcc].md to du_s01e01_zhangshiyinru...`
 
 ## 案发经过
 
