@@ -32,14 +32,33 @@ Issue 发布之前，提前对 Issue 做一个初步规划。
 
 ### 标题
 
+形式 - `[关键词]` + `时限`(可选) + `Issue 主题`
+
+- 使用前缀（`[关键词]` + `时限`），方便进行快速识别  
+    - 前缀类型
+        - `ANN` ~ 通告
+        - `ASK` + 时限 ~ 提问
+        - `TASK` + 时限 ~ 任务
+        - `WIKI` ~ 文档
+        - `LOG` ~ 日志
+        - `CHOAS` ~ 其它
+    - 关键词使用英文半角符号 `[` `]` 进行区分
 - 尽可能简洁的概括 Issue 主题
-- 可使用前缀，方便进行快速识别
 
-如 `[TASK]72h:版本仓库中应该放什么文件?`
 
-- `[TASK]` - 可写下这个 Issue 可用来快速识别的类别 (使用英文半角符号`[``]`)
-- `72h` - 简洁提示任务的实效
-- `版本仓库中应该放什么文件` - 概括 Issue 的主题
+如 `[TASK]42h: 为什么要 fork ? `
+
+- `[TASK]` - 关键词前缀，用来快速提示此主题属于一个任务
+-  `42h:` - TASK 类主题需添加时限
+- `为什么要 fork ?` - 概括 Issue 的主题
+
+以现有 Issues 举例，进行前缀的重新梳理
+
+- [DU1wd6zoom]预约 --> `ANN` 通告
+- [chk]提问自检清单 厘定 --> `WIKI` 可转为协作文档
+- [DU] 竹子事件 回顾 --> 从 `LOG`（记录） 转为 `WIKI`（协作文档）
+- [OT]小密圈 怼集 --> 从 `LOG`（记录） 转为 `WIKI`（协作文档）
+- [DU]自怼圈是什么?以及大家如何自处  --> `WIKI` 可转为协作文档
 
 ### 正文
 
@@ -130,8 +149,9 @@ Issue 最终还是为了推进我们的行动，并形成最终可以 积累/复
 
 ## 共同增补渠道
 
-- 在 [HbUsageIssue - Wiki](https://github.com/DebugUself/du4proto/wiki/HbUsageIssue) Web 页面直接进行增补
-- 可以[将 Wiki 克隆到本地](https://github.com/DebugUself/du4proto.wiki.git)，在本地修订并提交更新
+- 你可在 [HbUsageIssue - Wiki](https://github.com/DebugUself/du4proto/wiki/HbUsageIssue) Web 页面直接进行增补
+- 你可以[将 Wiki 克隆到本地](https://github.com/DebugUself/du4proto.wiki.git)，在本地修订并提交更新
+- 你可在[[WIKI] Issue 创建指南 反馈征集 · Issue #21 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/21) 提交你的反馈和建议
 
 ## Changelog
 
