@@ -6,8 +6,18 @@
 
 
 # 状态
-正式进入
-人数, 资源
+
+- 170408 `[DU0wd6zoom]` 20:42 周小结嗯哼
+    + 小圈: 37人 (嘉宾2, 大妈1)
+    + [列表](https://groups.google.com/forum/#!aboutgroup/debuguself): 订阅 36 个邮箱
+    + [组织](https://github.com/DebugUself): 32人
+- 170405 [【DU0wd3:dama 吐糟】在线收听_Zoom.Quiet_荔枝FM](https://www.lizhi.fm/3475110/2594444217544184326) ~ 被激发出 N 个任务了...
+    + 记要-> [[LOG]DU0wd3:dama 吐槽 · Issue #20 · DebugUself/du4proto](https://github.com/DebugUself/du4proto/issues/20)
+- 170402 [【DU:init. re-start】在线收听_Zoom.Quiet_荔枝FM](https://www.lizhi.fm/3475110/2594077848243996166) 正式开怼
+- 170401 关闭报表和入密
+- 170331 om103py 毕业
+- 170328 受到复习队的感召 开放入密
+- 170301 大妈 仓库小密圈
 
 # 任务
 - 内容
