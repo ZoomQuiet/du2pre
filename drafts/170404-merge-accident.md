@@ -1,10 +1,5 @@
-# 一个由暴力 Merge 引发的被异地与被变性惨案
+# 一个由暴力 Merge 引发的被异地与被变性 惨案
 
-## TODO
-
-- ASCII-art
-- 参考资料
-- 引发提问： 如何判定找到的资料对于当前状态是足够的?
 
 ## 涉案人物
 
@@ -122,15 +117,55 @@
 
 xpgeng: 具体原因呢是: ........... BLABLA ....... 就是这么情况.
 
+
+
+## 用图说话
+
++--------+
+| master +-------------------+------------+------->--->---+--------+---------->
++--------+                   |            |       ×       v        +
+                          push            |     push    pull       push
++--------+  modifying        |            |       ^       +        |
+| xpgeng +--------------------------->------------+---->conflict!+-->merge!+
++--------+                   |            |             ???!       |       |
+                             |            |                        |       |
++-----------------------+    |            |                commit  |       |
+| zhangshiyingrunwithcc +----+-->rename+-++           +------------+-----+ |
++-----------------------+                v            |                  | |
+                                    啥 是 模 版 ?      |   xpgeng's       | |
+                                         |            |                  +<+
+ +------------+                          |            +------------------+
+ | zoomquiet  |                          |            |   shiying's      |
+ +------------+--------------comment-----+---------------------+         | -
+                                                      +------------------+
+                                                               |
+                                   xpgeng 被 异 地  <----+shiying's = xpgeng's
+                                  shiying 被 变 性 <-----+shiying = xpgeng
+
+
 ## 总结陈词
 
 虽然在嫌疑犯 xpgeng 的不懈努力下, 案件已经的得到解决, 被害人也已经从懵逼中清醒过来, 可是...
 
-盲人狙击手还并没有放过被害人, 那么还望被害人继续试答...
+盲人狙击手还并没有放过被害人, 被害人成功出发了隐藏任务: 什么模板语言,都有什么通用约定?
 
-## 总结的总结陈词
+作为怼圈最长 ID 持有人, shiying 是不会放过这次回怼的机会的. 她经过 [6轮搜索](https://github.com/zhangshiyinrunwithcc/Zoomquiet-TASK/blob/master/templating-language-protocol.md)，对本问题进行了回答. 
 
-虽然大家在之前已经有了 GitHub 的各种操作体验, 可多数还是属于单打独斗的折腾, 那么现在开始涉及协同作业, 简单的 `push` `commit` 显然已经不够用了, 那么, 在协同作业中, 我们都需要掌握哪些必要的处理技能呢?
+可是, 想怼大妈哪那么容易...
+
+> 是也乎,(￣▽￣) 还是少挖一层哪...   
+> 模板系统的动力来源是什么? 模式匹配哪 为什么要写成模式条目?   
+> 
+> 因为想一句话说明白一堆条件哪 可是, 在大家不明白, 没有经过类似训练时  
+> 你的研究, 应该形成一个什么 可用 的成果输出? 有益怼友们?
+
+@zhangshiyinrunwithcc @zhangshiyinrunwithcc @zhangshiyinrunwithcc 看到请回答!看到请回答!
+
+## 嫌疑人的反思
+
+虽然大家在之前已经有了 GitHub 的各种操作体验, 可多数还是属于单打独斗的折腾, 所以对于 Git 的使用也基本局限在很简单的一些命令. 那么未来怼圈内会逐步开始涉及协同作业, 简单的 `push` `commit` 显然已经不够用了. 未来我们面对的可就不是本次惨案所遇到的这么简单的情况. 那么, 在协同作业中, 我们都需要掌握哪些必要的处理技能呢? 除了自己学会更深入的 Git 操作, 我们是不是该有一些协同上的约定呢?
+
+比如:
 
 - Commit 信息如何书写?
 - Conflict 如何 fix? 正确的处理流程是什么?
@@ -138,11 +173,17 @@ xpgeng: 具体原因呢是: ........... BLABLA ....... 就是这么情况.
 - 如何合并到 Master?
 - 更高级的协作还有什么?
 
+要不我们一起讨论讨论, 分享分享, 总结总结, 整理整理, 发布发布?
 
 ## References
 
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
-- [多人协作 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)
+    - 这个 blog 列出来该如何书写一些 commit message, 其中设计各方面的一些约定, 算是抛个砖. 
+- [Git - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+    - 关于分支的使用, Pro Git 已经说的比较详细了. 
 - [Commit message 和 Change log 编写指南 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+    - 阮老师的一个篇关于 commit 的博文, 其中关于 header type 那部分有些借鉴意义. 
 - [How to resolve merge conflicts in Git? - Stack Overflow](http://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git)
+    - 推了一波 git mergetool. 
 - [使用 git rebase 避免無謂的 merge | ihower { blogging }](https://ihower.tw/blog/archives/3843)
+    - 算是更高级的用法, 目的是减少一些不必要的 merge, 同时让 master 与分支的线图看起来更醒目. 各种各样的merge 流 我也是最近才开始了解到还能这么玩?..
