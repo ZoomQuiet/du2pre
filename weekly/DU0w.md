@@ -239,7 +239,7 @@
 
 - 暴力嫌疑人: xpgeng, 男, 一个有 local 女朋友的直男
 - 盲人狙击手: zoomquiet, 一个被叫做作大妈的男人
-- 懵逼被害人: Zhangshyingrunwithcc(怼圈最长 ID 持有人), 女, 一个有异地男朋友的女子
+- 懵逼被害人: zhangshyinrunwithcc(怼圈最长 ID 持有人), 女, 一个有异地男朋友的女子
 - 笑哭的围观群众: zoe 等一甘人
 
 
@@ -255,14 +255,14 @@
 - 滴滴滴! 提示 repo 滞后了... 看来这是有人已经动过 master repo 了呐, 哎, 太年轻. Pull 之! 
 - 哐哐哐! Conflict?! 就写个总结也能有 conlict? 能有啥 conflict 啊? 遥想以前在隔壁仓库协作更新 wiki 的时候, 也遇到过这种情况, 基本上这种 conflict, 正常 commit 下, 直接 push 就好. 大家的文字肯定是不会丢的. 遂, commit, push, Done! 检查一下, 不错. 
 
-> zhangshiyingrunwithcc 做了什么?
+> zhangshiyinrunwithcc 做了什么?
 
 - 一直认真积极的诗颖同学就在 xpgeng 还在写总结的时候, 咔咔咔完成了 push. 正在开心自己提交的时候, 浏览 repo 内其他怼友的小结是, 她发现文件名搞错了. 在 README 中, 要求的文件格式为
 
     `du_s01e01_[github id].md`
     例如,大妈的作业文件名就应该是: `du_s01e01_zoomquiet.md`
 
-- 然后**特(shi)别(er)实(bu)在(jian)**的诗颖同学的文件名是: `du_s01e01_[zhangshiyingrunwithcc].md`
+- 然后**特(shi)别(er)实(bu)在(jian)**的诗颖同学的文件名是: `du_s01e01_[zhangshiyinrunwithcc].md`
 - 纳尼? 改! 于是紧接着有了这样一次 [commit](https://github.com/DebugUself/du4proto/commit/4fe6f2a237f49ad7ee1b108d0f849105aa9eee82#commitcomment-21604885)
 
     `Rename du_s01e01_[zhangshiyinrunwithcc].md to du_s01e01_zhangshiyinru...`
@@ -342,7 +342,7 @@
 
 直至第二天早上, 被害人还一脸懵逼的质问 
 
-- xpgeng: 你 merge 和我修改文件名有啥关系?! 
+- zhangshiyinrunwithcc: 你 merge 和我修改文件名有啥关系?! 
 - xpgeng: 具体原因呢是: ........... BLABLA ....... 就是这么情况.
 
 
@@ -358,7 +358,7 @@
     | xpgeng +--------------------->-------x---+--> conflict! +-->merge!+
     +--------+                |            |         ?#$%!    |         |
     +-----------------------+ |            |            commit|         |
-    | zhangshiyingrunwithcc +-+-->rename+-++       +----------+-----+   |
+    | zhangshiyinrunwithcc  +-+-->rename+-++       +----------+-----+   |
     +-----------------------+             ^        |                |   |
                                      WTF? templet  |   xpgeng's     |   |
                                           |        |                +<--+
