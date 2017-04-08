@@ -51,14 +51,20 @@
     + 微信机器人 ~ [DebugUself/du4proto at tl2wc](https://github.com/DebugUself/du4proto/tree/tl2wc)
     + cvs->md <-- 没有正式发布工程分支
 - 状态:
-    + Commits 次数排名:
+    + Commits (~ 17.4.8 15:21, `共 21 人`)次数排名:
+        * NBR-hugh -> 15
+        * xpgeng -> 10
+        * Zxlon -> 9
+        * zhangshiyinrunwithcc -> 9
+        * bambooom -> 9
         * ...
-    + Comments (含 Issue 创建/回复, 以及代码点评)次数排名:
+    + Comments (含 Issue 创建/回复, 以及代码点评 ~ 17.4.8 13:50, `共 17 人`)次数排名:
         * ZoomQuiet -> 49
         * zhangshiyinrunwithcc -> 14
         * EattheSun -> 9
         * xpgeng -> 7
         * zoejane -> 5
+        * ...
 
 # 成果
 
