@@ -1,12 +1,13 @@
 # 怼周刊_v0
 ~ 试刊号
 
-弃私怨
+![dd-170408](http://zoomquiet.qiniucdn.com/res/dsign/dd-170408.jpeg?imageView2/2/w/420)
 
-    莫怨莫愁 暗自神伤
-    当真动手 越怼越快
-    嗯哼不乱 是谓逍遥
-
+- 主编: [大妈](http://du.zoomquiet.io/2014-02/ac0-zq/)
+- 责编:
+    + [xpgeng](http://du.zoomquiet.io/2017-04/about-xpgeng/)
+    + [sunoonlee](http://du.zoomquiet.io/2017-04/about-sunoonlee/)
+    + [Zoe](http://du.zoomquiet.io/2017-04/about-zoe/)
 
 # 进度
 
