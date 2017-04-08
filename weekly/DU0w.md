@@ -228,7 +228,7 @@ c 特殊情况人工相应（设置一个反馈渠道？比如邮箱/工单方�
 
 滴滴滴! 提示 repo 滞后了... 看来这是有人已经动过 master repo 了呐, 哎, 太年轻. Pull 之! 
 
-哐哐哐! Conflict?! 就写个总结也特么能有 conlict? 能有啥 conflict 啊? 遥想以前在隔壁仓库协作更新 wiki 的时候, 也遇到过这种情况, 基本上这种 conflict, 正常 commit 下, 直接 push 就好. 大家的文字肯定是不会丢的. 遂, commit, push, Done! 检查一下, 不错. 
+哐哐哐! Conflict?! 就写个总结也能有 conlict? 能有啥 conflict 啊? 遥想以前在隔壁仓库协作更新 wiki 的时候, 也遇到过这种情况, 基本上这种 conflict, 正常 commit 下, 直接 push 就好. 大家的文字肯定是不会丢的. 遂, commit, push, Done! 检查一下, 不错. 
 
 ### zhangshiyingrunwithcc 做了什么?
 
